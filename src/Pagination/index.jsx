@@ -43,7 +43,7 @@ export default function Pagination() {
                     )
                 }
                 )}
-                <button style={{ cursor: prodData.length / 5 === page ? "not-allowed" : "pointer" }} disabled={prodData.length / 5 === page} onClick={() => setPage(page => page + 1)}>➡️</button>
+                <button style={{ cursor: prodData.length / 5 === page ? "not-allowed" : "pointer", display: prodData.length / 5 === page && "none" }} onClick={() => setPage(page => page + 1)}>➡️</button>
             </div>
         </>
     )
