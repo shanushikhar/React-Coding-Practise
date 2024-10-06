@@ -1,12 +1,12 @@
 import './App.css'
-import FileStructure from './File Structure'
+import Pagination from './Pagination'
 
 function App() {
 
   return (
     <>
-     <FileStructure />
-       
+      <Pagination />
+
     </>
   )
 }
