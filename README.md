@@ -1,3 +1,3 @@
 # React + Vite
 
-## this branch contains the structure of creating files and folders
+## this branch contains the Pagination structure
